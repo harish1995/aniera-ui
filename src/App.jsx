@@ -50,8 +50,8 @@ export default function App() {
 
         {/* Logo / Brand */}
         <header className={styles.header}>
-          <img src={heroLogo} alt="Aniera" className={styles.logoImg} />
-          <span className={styles.logoName}>ANIERA</span>
+          <img src={heroLogo} alt="Aneira" className={styles.logoImg} />
+          <span className={styles.logoName}>ANEIRA</span>
         </header>
 
         {/* Tag line */}
