@@ -94,7 +94,7 @@ export default function App() {
 
         {/* Footer */}
         <footer className={styles.footer}>
-          © 2026 Aniera &nbsp;·&nbsp; Ethical Wear
+          © 2026 Aneira &nbsp;·&nbsp; Ethnic Wear
         </footer>
 
       </div>
