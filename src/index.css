@@ -1,0 +1,26 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cream:   #faf6f1;
+  --blush:   #e8c4b0;
+  --rose:    #c97b5a;
+  --sage:    #8a9e8c;
+  --bark:    #4a3728;
+  --bark-lt: #7a5c48;
+  --white:   #ffffff;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--cream);
+  color: var(--bark);
+  font-family: 'Jost', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
