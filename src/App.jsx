@@ -58,7 +58,7 @@ export default function App() {
 
         {/* Headline */}
         <h1 className={styles.headline}>
-          Wear Your <em>Values.</em>
+          <span style={{whiteSpace: 'nowrap'}}>Main character, <em>Always.</em></span>
         </h1>
 
         <p className={styles.sub}>
