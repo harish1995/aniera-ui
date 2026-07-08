@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import styles from './App.module.css'
+import heroLogo from './assets/hero.png'
 
 const TARGET = new Date('2026-08-01T00:00:00')
 
@@ -49,7 +50,7 @@ export default function App() {
 
         {/* Logo / Brand */}
         <header className={styles.header}>
-          <div className={styles.logoMark}>A</div>
+          <img src={heroLogo} alt="Aniera" className={styles.logoImg} />
           <span className={styles.logoName}>ANIERA</span>
         </header>
 
